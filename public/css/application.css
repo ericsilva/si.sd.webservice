@@ -1,0 +1,76 @@
+.main {
+	font-family: 'Droid Sans', serif;
+	font-size: 13px;
+	padding: 10px;
+	margin: 0 auto;
+	width: 50%;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	-moz-border-radius: 1em 4em 1em 4em;
+	border-radius: 1em 4em 1em 4em;
+	background-color: #EEEEEE;
+}
+
+.header {
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 30px
+}
+
+.body {
+	text-align: center;
+	font-size: 15px;
+}
+
+.footer {
+	text-align: center;
+	font-size: 12px
+}
+
+#q {
+	width: 50%;
+	padding: 10px;
+	height: 42px;
+	outline: none;
+}
+
+.focus {
+	border: solid 2px #73A6FF;
+	background: #EFF5FF;
+	color: #000;
+}
+
+.idle {
+	background: #EEE;
+	color: #6F6F6F;
+	border: solid 2px #DFDFDF;
+}
+
+div.livro {
+	padding: 5px;
+	text-align: left;
+	margin-bottom: 20px;
+}
+
+div.livro div.titulo {
+    font-weight: bold;
+}
+
+div.livro div.titulo a{
+    font-size: 11px;
+}
+
+div.livro div.descricao {
+    font-style: italic;
+    text-align: justify;
+}
+
+div.livro div.autores {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+div.livro div.autores span {
+	display: block;
+	font-weight: normal;
+}
