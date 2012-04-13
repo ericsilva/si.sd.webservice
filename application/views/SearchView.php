@@ -14,7 +14,7 @@ class SearchView implements IView {
         $file = $this->getFolderName() . DIRECTORY_SEPARATOR . $file . '.php';
 
         if(!file_exists($file)) {
-            throw new Exception('View inv�lida');
+            throw new Exception('View inválida');
         }
 
         include $file;
